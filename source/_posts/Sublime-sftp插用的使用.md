@@ -1,7 +1,7 @@
 ---
 title: Sublime sftp插件的使用
 date: 2018-07-10 23:51:00
-tags: 
+tags:
 	- sftp
 	- sublime
 ---
@@ -33,7 +33,7 @@ sublime的sftp插件是我平时开发时使用率最高的几个插件之一，
 "upload_on_save"  这个设置为true 可以在你control+S的时候自动上传；
 "host"            你服务器的IP xxx.xxx.xxx.xxx;
 "user"            你的用户名 一般是root
-"password"        登陆虚拟机的密码 
+"password"        登陆虚拟机的密码
 "port"            sftp默认是22端口
 "remote_path"     这个对应的是你测试服务器上文件的对应目录，比如我本地的文件名叫blog，远程代码对应的文件夹在/opt/www/blog，这里就填/opt/www/blog
 
@@ -50,5 +50,7 @@ ssh登录你的测试机
 2. vi sshd_config
 3. 找到 Subsystem sftp /usr/lib/openssh/sftp-server 这行代码，把/usr/lib/openssh/sftp-server 替换为 internal-sftp
 4. 重启sshd service sshd restart
+5. 打开网易云音乐 听首曲子 放松下吧
 
-最后的最后Mac真特么好用！！！
+<img src="http://pbnsa68r0.bkt.clouddn.com/qutu.png" alt="">
+<font size=2 face="黑体" color="#999">这里有一只超级厚脸皮的猫鼬，这货为了看风景，竟然把一名女游客的脑袋当瞭望台。端坐在人家头上瞭望远处的风景。</font>

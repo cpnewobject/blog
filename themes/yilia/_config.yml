@@ -6,7 +6,7 @@ menu:
 
 # SubNav
 subnav:
-  github: "https://github.com/cpnewobject"
+  # github: "https://github.com/cpnewobject"
   weibo: "https://weibo.com/u/2253115620"
   # rss: "#"
   # zhihu: "#"
